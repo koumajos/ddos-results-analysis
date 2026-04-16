@@ -1,0 +1,5 @@
+task,split,Component-based,Sequence-based,ΔF1 (Seq − Comp)
+Binary,Random split,0.8168,0.8838,0.067
+Binary,Time split,0.7068,0.8186,0.1118
+Multiclass,Random split,0.7667,0.7793,0.0127
+Multiclass,Time split,0.6075,0.7029,0.0954

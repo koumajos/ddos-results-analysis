@@ -1,0 +1,7 @@
+model,Standard Cross-network F1,Case Study F1,Improvement
+gru,0.5851,0.5723,-0.0128
+lightgbm,0.5795,0.6024,0.0229
+logistic-regression,0.5526,0.6008,0.0482
+random-forest,0.5785,0.5912,0.0126
+rnn,0.5097,0.6198,0.1102
+xgboost,0.5707,0.5953,0.0246

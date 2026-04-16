@@ -1,0 +1,12 @@
+model,Mean Cross-net F1,Best source network,Worst source network,Mean |Asymmetry|,Max |Asymmetry|
+xgboost,0.5707,SetC,SetD,0.1855,0.3213
+lstm,0.4839,SetC,SetD,0.1779,0.3242
+lightgbm,0.5795,SetC,SetD,0.1746,0.3302
+rnn,0.5097,SetC,SetD,0.1735,0.3373
+random-forest,0.5785,SetC,SetD,0.1596,0.2952
+mlp,0.5438,SetC,SetD,0.1354,0.2539
+gru,0.5851,SetC,SetD,0.1268,0.3164
+knn,0.4479,SetC,SetD,0.1117,0.2058
+nn,0.4305,SetA,SetB,0.0983,0.2529
+logistic-regression,0.5526,SetC,SetD,0.0816,0.1742
+svm,0.3991,SetC,SetD,0.0503,0.1362

@@ -1,0 +1,9 @@
+Network,Task,Deep Learning,Classical ML,DL − Classical,Advantage
+SetA,Binary,0.6393,0.6873,-0.048,Classical
+SetA,Multiclass,0.5309,0.5821,-0.0512,Classical
+SetB,Binary,0.8876,0.7787,0.1089,DL
+SetB,Multiclass,0.8315,0.7472,0.0843,DL
+SetC,Binary,0.8678,0.7968,0.071,DL
+SetC,Multiclass,0.7296,0.6457,0.0839,DL
+SetD,Binary,0.9703,0.9633,0.007,≈ Tie
+SetD,Multiclass,0.9015,0.8814,0.0201,DL

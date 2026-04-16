@@ -1,0 +1,17 @@
+\begin{table}
+\caption{Statistical comparison of case study vs standard cross-network F1 for each (train set, validation set) pairing. Mann--Whitney U, two-sided; $p<0.05$ deemed significant. Cohen's $d$ measures the practical effect size of the improvement.}
+\label{tab:q6_stats}
+\begin{tabular}{llrrrr}
+\toprule
+Train set & Val set & ΔF1 & p-value & Cohen's d & Significant \\
+\midrule
+SetA & SetD & 0.0639 & 0.0000 & 0.5116 & True \\
+SetA & SetB & 0.0570 & 0.0000 & 0.3454 & True \\
+SetA & SetC & 0.0529 & 0.0000 & 0.3213 & True \\
+SetB & SetD & 0.0219 & 0.0038 & 0.1055 & True \\
+SetB & SetC & 0.0189 & 0.0462 & 0.1009 & True \\
+SetB & SetA & 0.0084 & 0.8051 & 0.0436 & False \\
+SetC & SetA & -0.0460 & 0.0000 & -0.2241 & True \\
+\bottomrule
+\end{tabular}
+\end{table}

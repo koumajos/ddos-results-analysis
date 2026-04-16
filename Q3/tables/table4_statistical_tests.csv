@@ -1,0 +1,9 @@
+train_set,task,mean_transfer_drop,pct_significant,mean_cohens_d,n_tests
+SetA,Binary,0.0612,0.4545,2.7655,22
+SetA,Multiclass,0.0813,0.5455,4.9464,22
+SetB,Binary,0.2234,0.7273,5.1909,22
+SetB,Multiclass,0.3548,1.0,7.5938,22
+SetC,Binary,0.1872,0.7273,4.5575,22
+SetC,Multiclass,0.1699,0.8182,3.3559,22
+SetD,Binary,0.4772,1.0,32.027,22
+SetD,Multiclass,0.5457,1.0,17.8093,22

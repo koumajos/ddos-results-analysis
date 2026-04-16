@@ -1,0 +1,18 @@
+\begin{table}
+\caption{Overall mean F1-score comparison: deep learning vs.\ classical ML under in-network and cross-network evaluation, averaged over all networks, models within each category, and approaches. DL $-$ Classical: positive = deep learning advantage.}
+\label{tab:q5_overall}
+\begin{tabular}{lllrrr}
+\toprule
+Eval type & Task & Split & Deep Learning & Classical ML & DL − Classical \\
+\midrule
+In-network & Binary & Random split & 0.8711 & 0.8503 & 0.0208 \\
+In-network & Binary & Time split & 0.8114 & 0.7627 & 0.0487 \\
+In-network & Multiclass & Random split & 0.7911 & 0.7730 & 0.0181 \\
+In-network & Multiclass & Time split & 0.7057 & 0.6552 & 0.0505 \\
+Cross-network & Binary & Random split & 0.5751 & 0.6038 & -0.0287 \\
+Cross-network & Binary & Time split & 0.5912 & 0.6010 & -0.0098 \\
+Cross-network & Multiclass & Random split & 0.4308 & 0.4387 & -0.0079 \\
+Cross-network & Multiclass & Time split & 0.4572 & 0.4421 & 0.0151 \\
+\bottomrule
+\end{tabular}
+\end{table}

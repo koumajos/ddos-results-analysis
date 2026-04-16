@@ -1,0 +1,17 @@
+network,task,split,mean_delta_f1,pct_significant,mean_cohens_d,n_models
+SetA,Binary,Random split,-0.1303,0.0,-16.757,6
+SetA,Binary,Time split,-0.0802,0.0,-11.0169,6
+SetA,Multiclass,Random split,-0.105,0.5,-4.0554,6
+SetA,Multiclass,Time split,-0.045,0.1667,-2.5958,6
+SetB,Binary,Random split,0.2711,0.6667,64.1622,6
+SetB,Binary,Time split,0.3227,0.6667,155.1808,6
+SetB,Multiclass,Random split,0.1685,0.8333,21.7283,6
+SetB,Multiclass,Time split,0.1949,0.6667,22.1028,6
+SetC,Binary,Random split,0.1556,0.6667,37.5656,6
+SetC,Binary,Time split,0.2643,0.6667,34.8062,6
+SetC,Multiclass,Random split,0.1018,0.8333,8.4598,6
+SetC,Multiclass,Time split,0.2928,0.8333,91.8998,6
+SetD,Binary,Random split,-0.0266,0.5,0.0642,6
+SetD,Binary,Time split,-0.0458,0.0,-16.2113,6
+SetD,Multiclass,Random split,-0.1243,0.0,-4.4133,6
+SetD,Multiclass,Time split,-0.0596,0.5,3.4995,6

@@ -1,0 +1,9 @@
+Rank,model,category,mean_f1
+1,lightgbm,Classical ML,0.6017
+2,logistic-regression,Classical ML,0.6005
+3,xgboost,Classical ML,0.5978
+4,random-forest,Classical ML,0.5916
+5,rnn,Deep Learning,0.569
+6,catboost,Classical ML,0.5646
+7,gru,Deep Learning,0.5478
+8,cnn,Deep Learning,0.5117

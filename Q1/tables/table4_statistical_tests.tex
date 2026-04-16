@@ -1,0 +1,26 @@
+\begin{table}
+\caption{Statistical comparison per network, task, and split: mean $\Delta$F1 (Seq $-$ Comp), percentage of models with significant advantage (Wilcoxon, $p<0.05$), and mean Cohen's $d$.}
+\label{tab:q1_stats}
+\begin{tabular}{lllrrrr}
+\toprule
+network & task & split & mean_delta_f1 & pct_significant & mean_cohens_d & n_models \\
+\midrule
+SetA & Binary & Random split & -0.1303 & 0.0000 & -16.7570 & 6 \\
+SetA & Binary & Time split & -0.0802 & 0.0000 & -11.0169 & 6 \\
+SetA & Multiclass & Random split & -0.1050 & 0.5000 & -4.0554 & 6 \\
+SetA & Multiclass & Time split & -0.0450 & 0.1667 & -2.5958 & 6 \\
+SetB & Binary & Random split & 0.2711 & 0.6667 & 64.1622 & 6 \\
+SetB & Binary & Time split & 0.3227 & 0.6667 & 155.1808 & 6 \\
+SetB & Multiclass & Random split & 0.1685 & 0.8333 & 21.7283 & 6 \\
+SetB & Multiclass & Time split & 0.1949 & 0.6667 & 22.1028 & 6 \\
+SetC & Binary & Random split & 0.1556 & 0.6667 & 37.5656 & 6 \\
+SetC & Binary & Time split & 0.2643 & 0.6667 & 34.8062 & 6 \\
+SetC & Multiclass & Random split & 0.1018 & 0.8333 & 8.4598 & 6 \\
+SetC & Multiclass & Time split & 0.2928 & 0.8333 & 91.8998 & 6 \\
+SetD & Binary & Random split & -0.0266 & 0.5000 & 0.0642 & 6 \\
+SetD & Binary & Time split & -0.0458 & 0.0000 & -16.2113 & 6 \\
+SetD & Multiclass & Random split & -0.1243 & 0.0000 & -4.4133 & 6 \\
+SetD & Multiclass & Time split & -0.0596 & 0.5000 & 3.4995 & 6 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,18 @@
+\begin{table}
+\caption{Per-network mean F1-score: sequence-based vs.\ component-based (paired models, both tasks).}
+\label{tab:q1_per_network}
+\begin{tabular}{llrrrl}
+\toprule
+network & task & Component-based & Sequence-based & ΔF1 (Seq − Comp) & Advantage \\
+\midrule
+SetA & Binary & 0.7403 & 0.6343 & -0.1061 & ↓ Comp \\
+SetA & Multiclass & 0.6193 & 0.5450 & -0.0743 & ↓ Comp \\
+SetB & Binary & 0.6308 & 0.9265 & 0.2957 & ↑ Seq \\
+SetB & Multiclass & 0.6562 & 0.8382 & 0.1820 & ↑ Seq \\
+SetC & Binary & 0.6955 & 0.8981 & 0.2026 & ↑ Seq \\
+SetC & Multiclass & 0.5456 & 0.7457 & 0.2002 & ↑ Seq \\
+SetD & Binary & 0.9806 & 0.9460 & -0.0347 & ↓ Comp \\
+SetD & Multiclass & 0.9272 & 0.8355 & -0.0917 & ↓ Comp \\
+\bottomrule
+\end{tabular}
+\end{table}

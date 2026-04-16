@@ -1,0 +1,7 @@
+Pair,F1 (src→tgt),F1 (tgt→src),Asymmetry,Better source,abs_asym
+SetA ↔ SetD,0.6492,0.3984,0.2508,SetA,0.2508
+SetC ↔ SetD,0.6228,0.4208,0.2021,SetC,0.2021
+SetB ↔ SetD,0.5748,0.4075,0.1673,SetB,0.1673
+SetB ↔ SetC,0.6107,0.6914,-0.0807,SetC,0.0807
+SetA ↔ SetB,0.4788,0.4394,0.0394,SetA,0.0394
+SetA ↔ SetC,0.4652,0.4665,-0.0012,SetC,0.0012

@@ -1,0 +1,5 @@
+eval_type,task,mean_dl_minus_cls,pct_significant,mean_cohens_d,n_tests
+Cross-network,Binary,0.012,0.625,0.0471,8
+Cross-network,Multiclass,0.0376,0.375,0.195,8
+In-network,Binary,0.0456,0.75,0.2696,8
+In-network,Multiclass,0.0427,0.75,0.241,8

@@ -1,0 +1,14 @@
+\begin{table}
+\caption{Statistical comparison of deep learning vs.\ classical ML (two-sided Wilcoxon signed-rank, H$_0$: mean F1 equal). Mean DL $-$ Classical: positive = DL advantage; aggregated over all networks per eval type and task.}
+\label{tab:q5_stats}
+\begin{tabular}{llrrrr}
+\toprule
+eval_type & task & mean_dl_minus_cls & pct_significant & mean_cohens_d & n_tests \\
+\midrule
+Cross-network & Binary & 0.0120 & 0.6250 & 0.0471 & 8 \\
+Cross-network & Multiclass & 0.0376 & 0.3750 & 0.1950 & 8 \\
+In-network & Binary & 0.0456 & 0.7500 & 0.2696 & 8 \\
+In-network & Multiclass & 0.0427 & 0.7500 & 0.2410 & 8 \\
+\bottomrule
+\end{tabular}
+\end{table}

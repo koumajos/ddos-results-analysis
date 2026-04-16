@@ -1,0 +1,9 @@
+approach,network,model,Mean F1
+Component-based,SetA,gru,0.8179
+Component-based,SetB,gru,0.7001
+Component-based,SetC,gru,0.7009
+Component-based,SetD,gru,0.9843
+Sequence-based,SetA,lightgbm,0.7
+Sequence-based,SetB,random-forest,0.9495
+Sequence-based,SetC,random-forest,0.8727
+Sequence-based,SetD,random-forest,0.9755
