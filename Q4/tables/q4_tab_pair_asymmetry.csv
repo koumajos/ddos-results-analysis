@@ -1,0 +1,11 @@
+pair,task,f12,f21,asym,better,p,d,n
+SetA$\leftrightarrow$SetD,Binary,0.7079,0.4575,0.2505,SetA,0.0,1.3633,34
+SetA$\leftrightarrow$SetD,Multiclass,0.5848,0.3485,0.2363,SetA,0.0,1.8856,34
+SetC$\leftrightarrow$SetD,Binary,0.7123,0.5104,0.2019,SetC,0.0,0.8035,34
+SetC$\leftrightarrow$SetD,Multiclass,0.5178,0.3464,0.1714,SetC,0.0,1.147,34
+SetB$\leftrightarrow$SetD,Binary,0.6849,0.4904,0.1945,SetB,0.0001,0.8369,34
+SetB$\leftrightarrow$SetD,Multiclass,0.4646,0.3371,0.1274,SetB,0.0001,0.763,34
+SetB$\leftrightarrow$SetC,Binary,0.7015,0.7313,-0.0298,SetC,0.1126,-0.182,34
+SetB$\leftrightarrow$SetC,Multiclass,0.5372,0.6721,-0.1349,SetC,0.0,-1.3449,34
+SetA$\leftrightarrow$SetB,Binary,0.5462,0.5238,0.0224,SetA,0.5097,0.1542,34
+SetA$\leftrightarrow$SetB,Multiclass,0.4188,0.3529,0.0659,SetA,0.0041,0.5558,34

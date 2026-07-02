@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\caption{Per-model cross-network transfer asymmetry. \textit{Cross-net mean} is the mean macro F1-score over all directed cross-network transfers, tasks, splits, input representations, and runs. \textit{Best} and \textit{worst source} are the training networks yielding the highest and lowest mean cross-network macro F1 for that model. Mean and max $|$asymmetry$|$ are taken over the five analysed network pairs. Rows are sorted by mean $|$asymmetry$|$ descending. SetA$\leftrightarrow$SetC transfers are excluded (same network, different capture period).}
+\label{tab:q4_models}
+\centering
+\begin{tabular}{lccccc}
+\toprule
+Model & \makecell{Cross-net mean \\ macro F1-score} & \makecell{Best \\ source} & \makecell{Worst \\ source} & Mean $|$asymmetry$|$ & Max $|$asymmetry$|$ \\
+\midrule
+XGBoost & 0.5897 & SetC & SetD & 0.2131 & 0.3213 \\
+LightGBM & 0.5939 & SetC & SetD & 0.2089 & 0.3302 \\
+LSTM & 0.4992 & SetC & SetD & 0.2003 & 0.3242 \\
+RandomForest & 0.5940 & SetC & SetD & 0.1882 & 0.2952 \\
+RNN & 0.5853 & SetC & SetD & 0.1555 & 0.2314 \\
+MLP & 0.5592 & SetC & SetD & 0.1550 & 0.2539 \\
+GRU & 0.5979 & SetC & SetD & 0.1403 & 0.2648 \\
+kNN & 0.4577 & SetC & SetD & 0.1244 & 0.2058 \\
+NN & 0.4337 & SetA & SetB & 0.1000 & 0.2529 \\
+LR & 0.5582 & SetC & SetD & 0.0895 & 0.1742 \\
+SVM & 0.3936 & SetA & SetD & 0.0495 & 0.1362 \\
+\bottomrule
+\end{tabular}
+\end{table}
