@@ -1,0 +1,5 @@
+Representation,Task,Model,In-net F1,Cross-net F1,Transfer drop
+Component-based,Binary,XGBoost,0.7757,0.6633,0.1125
+Component-based,Multiclass,LightGBM,0.725,0.4901,0.2349
+Sequence-based,Binary,LightGBM,0.903,0.6666,0.2363
+Sequence-based,Multiclass,LightGBM,0.8405,0.5596,0.2808

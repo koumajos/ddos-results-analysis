@@ -1,0 +1,15 @@
+\begin{table}
+\caption{Directed cross-network transfer matrix, task: Binary. Each cell reports mean\,$\pm$\,std Macro F1 averaged over all models, feature approaches, splits, and runs. Diagonal entries (in-network) are in \textbf{bold}. SetA$\leftrightarrow$SetC transfers are excluded (same network, different capture period) and marked \textit{excl.}}
+\label{tab:q3_matrix_binary}
+\begin{tabular}{lcccc}
+\toprule
+ & SetA & SetB & SetC & SetD \\
+Train $\backslash$ Test &  &  &  &  \\
+\midrule
+SetA & \textbf{$0.667\,{\pm}\,0.139$} & $0.546\,{\pm}\,0.077$ & \textit{excl.} & $0.708\,{\pm}\,0.164$ \\
+SetB & $0.524\,{\pm}\,0.117$ & \textbf{$0.827\,{\pm}\,0.155$} & $0.702\,{\pm}\,0.217$ & $0.685\,{\pm}\,0.214$ \\
+SetC & \textit{excl.} & $0.731\,{\pm}\,0.233$ & \textbf{$0.829\,{\pm}\,0.116$} & $0.712\,{\pm}\,0.192$ \\
+SetD & $0.457\,{\pm}\,0.110$ & $0.490\,{\pm}\,0.119$ & $0.510\,{\pm}\,0.119$ & \textbf{$0.964\,{\pm}\,0.033$} \\
+\bottomrule
+\end{tabular}
+\end{table}

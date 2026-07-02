@@ -1,0 +1,14 @@
+\begin{table}
+\caption{Best-model comparison per task and split condition. \textit{Left half}: the model achieving the highest mean in-network Macro F1, together with its cross-network F1 and the resulting drop -- revealing how far the in-network champion falls when transferred. \textit{Right half}: the model achieving the highest mean cross-network Macro F1 (i.e.\ the best deployment candidate), together with its in-network F1. The \emph{best cross-net model} column is determined by absolute cross-network F1, not by transfer-drop magnitude, so that a weakly performing but stable model cannot rank ahead of a strongly performing model with a larger absolute drop.}
+\label{tab:q3_best_model}
+\begin{tabular}{llccccccc}
+\toprule
+Task & Split & Best in-net model & In-net F1 & Cross-net F1 (same model) & Drop & Best cross-net model & Cross-net F1 & In-net F1 (same model) \\
+\midrule
+Binary & Random split & gru & 0.920800 & 0.657900 & 0.262900 & logistic-regression & 0.718500 & 0.804000 \\
+Binary & Time split & gru & 0.844500 & 0.681300 & 0.163200 & logistic-regression & 0.699800 & 0.747500 \\
+Multiclass & Random split & lightgbm & 0.857000 & 0.512000 & 0.345000 & gru & 0.525400 & 0.847800 \\
+Multiclass & Time split & gru & 0.745200 & 0.527000 & 0.218200 & random-forest & 0.544400 & 0.702300 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,21 @@
+\begin{table}
+\caption{Per-model mean Macro F1 in-network and cross-network, with transfer drop ($\Delta$F1 = cross $-$ in-network), Wilcoxon $p$-value, and Cohen's $d$. Rows sorted by transfer drop (largest drop first).}
+\label{tab:q3_per_model_drop}
+\begin{tabular}{llccccc}
+\toprule
+Model & Category & In-network F1 & Cross-network F1 & $\Delta$ F1 & $p$-value & Cohen's $d$ \\
+\midrule
+lstm & Deep Learning & 0.8291 & 0.4839 & -0.3452 & 0.0000 & 3.8350 \\
+nn & Deep Learning & 0.7722 & 0.4305 & -0.3417 & 0.0000 & 2.6390 \\
+knn & Classical ML & 0.7606 & 0.4479 & -0.3127 & 0.0000 & 3.5040 \\
+svm & Classical ML & 0.6779 & 0.3991 & -0.2788 & 0.0000 & 1.9650 \\
+rnn & Deep Learning & 0.8327 & 0.5678 & -0.2649 & 0.0002 & 1.7090 \\
+gru & Deep Learning & 0.8396 & 0.5808 & -0.2588 & 0.0002 & 1.8060 \\
+xgboost & Classical ML & 0.8088 & 0.5707 & -0.2381 & 0.0001 & 1.9260 \\
+lightgbm & Classical ML & 0.8105 & 0.5795 & -0.2310 & 0.0001 & 1.7700 \\
+random-forest & Classical ML & 0.8072 & 0.5785 & -0.2286 & 0.0001 & 1.7080 \\
+mlp & Deep Learning & 0.7721 & 0.5438 & -0.2283 & 0.0002 & 1.7460 \\
+logistic-regression & Classical ML & 0.6968 & 0.5526 & -0.1442 & 0.0002 & 1.3180 \\
+\bottomrule
+\end{tabular}
+\end{table}

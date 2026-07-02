@@ -1,0 +1,33 @@
+\begin{table*}
+    \centering
+    \caption{Per-model transferability (Binary task). The \emph{mean} columns are aggregated across both input representations and all training/test networks, splits, and runs. The \emph{Best} columns report the model at its best input representation (highest mean in-network macro F1): that representation's in-network and cross-network means. Transfer drop = in-network mean $-$ cross-network mean. Rows sorted by cross-network mean F1 descending. SetA$\leftrightarrow$SetC transfers are excluded (same network, different capture period).}
+    \label{tab:q3_per_model_binary}
+
+    \rowcolors{3}{gray!10}{white}
+
+    \begin{tabular}{
+        l
+        S[table-format=1.4]
+        S[table-format=1.4]
+        S[table-format=1.4]
+        S[table-format=2.1]
+        S[table-format=1.4]
+        S[table-format=1.4]
+    }
+    \toprule
+    \textbf{Model} & {\makecell{\textbf{In-net mean} \\ \textbf{macro F1-score}}} & {\makecell{\textbf{Cross-net mean} \\ \textbf{macro F1-score}}} & {\makecell{\textbf{Transfer drop} \\ \textbf{(In $-$ Cross)}}} & {\makecell{\textbf{Rel.} \\ \textbf{drop (\%)}}} & {\makecell{\textbf{Best in-net} \\ \textbf{macro F1-score}}} & {\makecell{\textbf{Best cross-net} \\ \textbf{macro F1-score}}} \\
+    \midrule
+    LR & 0.7757 & \textbf{0.7091} & \textbf{0.0666} & \textbf{8.6} & 0.8205 & \textbf{0.7345} \\
+    GRU & \textbf{0.8827} & 0.6696 & 0.2130 & 24.1 & 0.8827 & 0.6696 \\
+    LightGBM & 0.8383 & 0.6629 & 0.1754 & 20.9 & \textbf{0.9030} & 0.6666 \\
+    RNN & 0.8786 & 0.6628 & 0.2158 & 24.6 & 0.8786 & 0.6628 \\
+    XGBoost & 0.8392 & 0.6570 & 0.1822 & 21.7 & 0.9027 & 0.6507 \\
+    RandomForest & 0.8348 & 0.6568 & 0.1780 & 21.3 & 0.8953 & 0.6489 \\
+    MLP & 0.8314 & 0.6185 & 0.2128 & 25.6 & 0.8314 & 0.6185 \\
+    LSTM & 0.8715 & 0.5581 & 0.3134 & 36.0 & 0.8715 & 0.5581 \\
+    kNN & 0.7993 & 0.5166 & 0.2827 & 35.4 & 0.8290 & 0.5032 \\
+    NN & 0.8316 & 0.4678 & 0.3638 & 43.7 & 0.8316 & 0.4678 \\
+    SVM & 0.7518 & 0.4653 & 0.2865 & 38.1 & 0.7568 & 0.4346 \\
+    \bottomrule
+    \end{tabular}
+\end{table*}

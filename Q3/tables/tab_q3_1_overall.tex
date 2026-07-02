@@ -1,0 +1,13 @@
+\begin{table}
+\caption{Overall transferability of ML-based DDoS detectors. Macro F1-scores are averaged over all models, feature approaches, and splits. Transfer drop = In-network $-$ Cross-network. The \emph{All} row aggregates both tasks.}
+\label{tab:q3_overall}
+\begin{tabular}{lcccccc}
+\toprule
+Task & In-network F1 & Cross-network F1 & Transfer drop & Relative drop (\%) & $p$-value & Cohen's $d$ \\
+\midrule
+Binary & 0.822000 & 0.606600 & 0.215400 & 26.200000 & 0.0000 & 1.732 \\
+Multiclass & 0.727300 & 0.458000 & 0.269300 & 37.000000 & 0.0000 & 2.225 \\
+All & 0.774700 & 0.532300 & 0.242300 & 31.300000 & 0.0000 & 1.943 \\
+\bottomrule
+\end{tabular}
+\end{table}
