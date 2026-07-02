@@ -1,0 +1,7 @@
+.venv/*
+.claude/*
+
+data/*.ipynb
+
+CLAUDE.md
+
