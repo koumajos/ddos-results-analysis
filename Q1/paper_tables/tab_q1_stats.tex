@@ -1,0 +1,26 @@
+\begin{table}
+\caption{Q1: Statistical comparison per network $\times$ task $\times$ split. Mean $\Delta$F1 across the seven paired models, Wilcoxon signed-rank test of the sequence advantage applied to the seven run-averaged paired means (one-sided, Seq $>$ Comp), and Cohen\textquotesingle{}s $d$ computed on the same paired means.}
+\label{tab:q1_stats}
+\begin{tabular}{lllrlrr}
+\toprule
+network & task & split & $\Delta$F1 (Seq $-$ Comp) & Sig.\ ($p<0.05$) & Cohen's $d$ & $p$-value \\
+\midrule
+SetA & Binary & Random split & -0.1326 & No & -1.0547 & 1.0000 \\
+SetA & Binary & Time split & -0.0795 & No & -1.5662 & 1.0000 \\
+SetA & Multiclass & Random split & -0.1043 & No & -0.7546 & 0.8438 \\
+SetA & Multiclass & Time split & -0.0443 & No & -0.7352 & 0.9531 \\
+SetB & Binary & Random split & 0.2707 & Yes & 7.6639 & 0.0156 \\
+SetB & Binary & Time split & 0.3207 & Yes & 8.0835 & 0.0156 \\
+SetB & Multiclass & Random split & 0.1689 & Yes & 2.6552 & 0.0156 \\
+SetB & Multiclass & Time split & 0.1951 & Yes & 1.5303 & 0.0312 \\
+SetC & Binary & Random split & 0.1538 & Yes & 2.3257 & 0.0156 \\
+SetC & Binary & Time split & 0.2513 & Yes & 3.4521 & 0.0156 \\
+SetC & Multiclass & Random split & 0.1078 & Yes & 1.4885 & 0.0312 \\
+SetC & Multiclass & Time split & 0.2926 & Yes & 7.5169 & 0.0156 \\
+SetD & Binary & Random split & -0.0239 & No & -0.6433 & 0.8438 \\
+SetD & Binary & Time split & -0.0454 & No & -1.0533 & 1.0000 \\
+SetD & Multiclass & Random split & -0.1217 & No & -0.8700 & 1.0000 \\
+SetD & Multiclass & Time split & -0.0616 & No & -0.5140 & 0.8438 \\
+\bottomrule
+\end{tabular}
+\end{table}

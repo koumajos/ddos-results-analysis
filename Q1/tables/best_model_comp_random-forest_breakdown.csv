@@ -1,0 +1,5 @@
+task,split,SetA,SetB,SetC,SetD
+Binary,Random split,0.8841,0.7004,0.7807,0.9863
+Binary,Time split,0.6119,0.629,0.6083,0.9944
+Multiclass,Random split,0.7964,0.7618,0.7415,0.9685
+Multiclass,Time split,0.4911,0.6807,0.4078,0.9464

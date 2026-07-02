@@ -1,9 +1,9 @@
 \begin{table}
-\caption{Per-model mean F1-score: sequence-based vs.\ component-based (averaged over networks, tasks, and splits).}
+\caption{Q1: Per-model mean macro-F1 for the component-based and sequence-based approaches, averaged over the four networks, two tasks, and two splits. Rows are sorted by $\Delta$F1 (Seq $-$ Comp).}
 \label{tab:q1_per_model}
 \begin{tabular}{lrrr}
 \toprule
-model & Component-based & Sequence-based & ΔF1 (Seq − Comp) \\
+model & Component-based & Sequence-based & $\Delta$F1 (Seq $-$ Comp) \\
 \midrule
 lightgbm & 0.7493 & 0.8717 & 0.1224 \\
 xgboost & 0.7478 & 0.8698 & 0.1220 \\
@@ -11,7 +11,6 @@ random-forest & 0.7493 & 0.8650 & 0.1157 \\
 logistic-regression & 0.6697 & 0.7239 & 0.0542 \\
 knn & 0.7378 & 0.7833 & 0.0455 \\
 svm & 0.6927 & 0.6632 & -0.0295 \\
-rnn & NaN & 0.8327 & NaN \\
 \bottomrule
 \end{tabular}
 \end{table}
