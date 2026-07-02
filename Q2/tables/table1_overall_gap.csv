@@ -1,4 +1,4 @@
 task,Random split,Time split,Inflation (Rand − Time),Relative Inflation (%)
-Binary,0.8572,0.779,0.0783,10.05
-Multiclass,0.779,0.672,0.107,15.92
-All,0.8181,0.7255,0.0927,12.78
+Binary,0.8606,0.7834,0.0771,9.84
+Multiclass,0.7794,0.6753,0.1041,15.42
+All,0.82,0.7293,0.0906,12.42
