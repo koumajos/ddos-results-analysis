@@ -1,0 +1,22 @@
+\begin{table}
+\caption{Per-model performance in the case study and standard cross-network settings. $\Delta$F1 is reported only for models present in both evaluations (NaN for catboost, which is case-study only).}
+\label{tab:q6_models}
+\begin{tabular}{rllrrrr}
+\toprule
+Rank & model & category & Case Study F1 & Std & Standard F1 & ΔF1 \\
+\midrule
+1 & xgboost & Classical ML & 0.6474 & 0.1697 & 0.5897 & 0.0577 \\
+2 & logistic-regression & Classical ML & 0.6290 & 0.1984 & 0.5582 & 0.0708 \\
+3 & lightgbm & Classical ML & 0.6115 & 0.1786 & 0.5939 & 0.0176 \\
+4 & random-forest & Classical ML & 0.5962 & 0.1870 & 0.5940 & 0.0022 \\
+5 & catboost & Classical ML & 0.5943 & 0.1797 & NaN & NaN \\
+6 & mlp & Classical ML & 0.5890 & 0.1444 & NaN & NaN \\
+7 & gru & Deep Learning & 0.5860 & 0.1712 & 0.5979 & -0.0119 \\
+8 & rnn & Deep Learning & 0.5662 & 0.1795 & 0.5853 & -0.0191 \\
+9 & nn & Classical ML & 0.5315 & 0.1499 & NaN & NaN \\
+10 & svm & Classical ML & 0.5311 & 0.1708 & NaN & NaN \\
+11 & knn & Classical ML & 0.5133 & 0.1620 & NaN & NaN \\
+12 & lstm & Classical ML & 0.4972 & 0.1369 & NaN & NaN \\
+\bottomrule
+\end{tabular}
+\end{table}

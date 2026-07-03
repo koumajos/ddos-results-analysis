@@ -1,14 +1,20 @@
 \begin{table}
-\caption{Statistical comparison of deep learning vs.\ classical ML (two-sided Wilcoxon signed-rank, H$_0$: mean F1 equal). Mean DL $-$ Classical: positive = DL advantage; aggregated over all networks per eval type and task.}
-\label{tab:q5_stats}
+\caption{Statistical comparison of case study vs standard cross-network F1 for each (train set, validation set) pairing. Mann--Whitney U on run-averaged F1 values, two-sided; $p<0.05$ deemed significant. Cohen's $d$ measures the practical effect size.}
+\label{tab:q6_stats}
 \begin{tabular}{llrrrr}
 \toprule
-eval_type & task & mean_dl_minus_cls & pct_significant & mean_cohens_d & n_tests \\
+Train set & Val set & ΔF1 & p-value & Cohen's d & Significant \\
 \midrule
-Cross-network & Binary & 0.0120 & 0.6250 & 0.0471 & 8 \\
-Cross-network & Multiclass & 0.0376 & 0.3750 & 0.1950 & 8 \\
-In-network & Binary & 0.0456 & 0.7500 & 0.2696 & 8 \\
-In-network & Multiclass & 0.0427 & 0.7500 & 0.2410 & 8 \\
+SetC & SetD & 0.1921 & 0.0001 & 0.9521 & True \\
+SetD & SetA & 0.1912 & 0.0000 & 1.0598 & True \\
+SetD & SetC & 0.1850 & 0.0000 & 1.0042 & True \\
+SetB & SetC & 0.0969 & 0.0284 & 0.4993 & True \\
+SetD & SetB & 0.0649 & 0.0016 & 0.4705 & True \\
+SetA & SetD & 0.0538 & 0.0159 & 0.4786 & True \\
+SetB & SetA & 0.0486 & 0.3530 & 0.2488 & False \\
+SetB & SetD & 0.0306 & 0.3112 & 0.1525 & False \\
+SetC & SetB & 0.0284 & 0.4624 & 0.1678 & False \\
+SetA & SetB & 0.0139 & 0.7056 & 0.0931 & False \\
 \bottomrule
 \end{tabular}
 \end{table}

@@ -1,0 +1,15 @@
+\begin{table}
+\caption{Overall comparison of disjoint-network training (case study) vs standard cross-network transfer, stratified by split strategy and feature approach. $\Delta$F1 = Case Study F1 $-$ Standard F1; Wilcoxon two-sided, significance threshold $p<0.05$. SetA$\leftrightarrow$SetC same-environment combinations are excluded.}
+\label{tab:q6_overall}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Condition & N configs & Standard F1 & Case Study F1 & ΔF1 & p-value & Cohen's d & Significant \\
+\midrule
+Overall & 531 & 0.5545 & 0.5993 & 0.0448 & 0.0000 & 0.3193 & True \\
+Split: Random split & 281 & 0.5523 & 0.6007 & 0.0484 & 0.0000 & 0.3837 & True \\
+Split: Time split & 250 & 0.5569 & 0.5977 & 0.0408 & 0.0035 & 0.2633 & True \\
+Sequences: True & 325 & 0.5597 & 0.6009 & 0.0412 & 0.0001 & 0.3001 & True \\
+Sequences: False & 206 & 0.5463 & 0.5968 & 0.0505 & 0.0004 & 0.3480 & True \\
+\bottomrule
+\end{tabular}
+\end{table}

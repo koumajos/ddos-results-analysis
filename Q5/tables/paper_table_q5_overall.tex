@@ -1,0 +1,17 @@
+\begin{table}
+\caption{Disjoint-validation protocol vs.\ standard cross-network transfer on matched configurations. Each disjoint-validation result is paired with the standard cross-network result of the identical (model, task, split, input representation, training network, test network) configuration, averaged over runs; the validation network is the only differing factor. Standard and Disjoint are mean macro F1-scores over the matched configurations, $\Delta$F1 $=$ Disjoint $-$ Standard. $p$-values are two-sided Wilcoxon signed-rank tests over the matched pairs and Cohen's $d$ is computed on the paired differences. SetA$\leftrightarrow$SetC co-occurrences across the training, validation, and test roles are excluded (same network, different capture period).}
+\label{tab:q5_overall}
+\centering
+\small
+\begin{tabular}{lrrrrrr}
+\toprule
+Condition & $N$ & Standard & Disjoint & $\Delta$F1 & $p$-value & Cohen's $d$ \\
+\midrule
+Overall & 531 & 0.5545 & 0.5993 & +0.0448 & $<$0.0001 & 0.319 \\
+Random split & 281 & 0.5523 & 0.6007 & +0.0484 & $<$0.0001 & 0.384 \\
+Time split & 250 & 0.5569 & 0.5977 & +0.0408 & 0.0035 & 0.263 \\
+Sequence-based & 325 & 0.5597 & 0.6009 & +0.0412 & 0.0001 & 0.300 \\
+Component-based & 206 & 0.5463 & 0.5968 & +0.0505 & 0.0004 & 0.348 \\
+\bottomrule
+\end{tabular}
+\end{table}
