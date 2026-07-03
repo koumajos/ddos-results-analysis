@@ -1,9 +1,0 @@
-Rank,model,category,Case Study F1,Std,Standard F1,ΔF1
-1,lightgbm,Classical ML,0.6017,0.1688,0.5755,0.0262
-2,logistic-regression,Classical ML,0.6005,0.1867,0.5582,0.0423
-3,xgboost,Classical ML,0.5978,0.1627,0.5675,0.0303
-4,random-forest,Classical ML,0.5916,0.1665,0.5744,0.0172
-5,rnn,Deep Learning,0.569,0.1684,0.5061,0.0629
-6,catboost,Classical ML,0.5646,0.174,,
-7,gru,Deep Learning,0.5478,0.1753,0.5717,-0.0239
-8,cnn,Deep Learning,0.5117,0.1612,,

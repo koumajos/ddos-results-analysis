@@ -1,8 +1,0 @@
-Rank,Train set,Val set,Mean Case Study F1,Mean Standard F1 (same train),Delta F1,N runs
-1,SetB,SetA,0.6352,0.5435,0.0917,130
-2,SetC,SetA,0.6251,0.5879,0.0373,60
-3,SetA,SetB,0.6169,0.5355,0.0813,130
-4,SetA,SetC,0.6158,0.5355,0.0803,130
-5,SetB,SetD,0.555,0.5435,0.0116,130
-6,SetA,SetD,0.5308,0.5355,-0.0047,130
-7,SetB,SetC,0.5231,0.5435,-0.0203,130

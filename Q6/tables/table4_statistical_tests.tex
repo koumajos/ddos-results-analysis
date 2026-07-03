@@ -1,17 +1,34 @@
 \begin{table}
-\caption{Statistical comparison of case study vs standard cross-network F1 for each (train set, validation set) pairing. Mann--Whitney U, two-sided; $p<0.05$ deemed significant. Cohen's $d$ measures the practical effect size of the improvement.}
+\caption{Pairwise family statistical comparison (sequence-based). Mann-Whitney U over all model$\times$network configurations, Holm-corrected across the three contrasts within each (regime, task, split) stratum; Cohens d effect size. diff: signed F1 gap (first $-$ second family).}
 \label{tab:q6_stats}
-\begin{tabular}{llrrrr}
+\begin{tabular}{llllrrrr}
 \toprule
-Train set & Val set & ΔF1 & p-value & Cohen's d & Significant \\
+eval_type & task & split & contrast & diff & cohens_d & p_holm & significant \\
 \midrule
-SetA & SetD & 0.0639 & 0.0000 & 0.5116 & True \\
-SetA & SetB & 0.0570 & 0.0000 & 0.3454 & True \\
-SetA & SetC & 0.0529 & 0.0000 & 0.3213 & True \\
-SetB & SetD & 0.0219 & 0.0038 & 0.1055 & True \\
-SetB & SetC & 0.0189 & 0.0462 & 0.1009 & True \\
-SetB & SetA & 0.0084 & 0.8051 & 0.0436 & False \\
-SetC & SetA & -0.0460 & 0.0000 & -0.2241 & True \\
+In-network & Binary & Random split & DL vs Cls & 0.0645 & 0.4898 & 0.1080 & False \\
+In-network & Binary & Random split & DL vs Ens & -0.0618 & -0.6138 & 0.1080 & False \\
+In-network & Binary & Random split & Ens vs Cls & 0.1263 & 1.1395 & 0.0128 & True \\
+In-network & Binary & Time split & DL vs Cls & 0.0496 & 0.2865 & 0.0820 & False \\
+In-network & Binary & Time split & DL vs Ens & -0.0205 & -0.1135 & 0.2351 & False \\
+In-network & Binary & Time split & Ens vs Cls & 0.0701 & 0.4054 & 0.0497 & True \\
+In-network & Multiclass & Random split & DL vs Cls & 0.1330 & 0.9469 & 0.0216 & True \\
+In-network & Multiclass & Random split & DL vs Ens & -0.1021 & -0.8962 & 0.0216 & True \\
+In-network & Multiclass & Random split & Ens vs Cls & 0.2351 & 2.0613 & 0.0005 & True \\
+In-network & Multiclass & Time split & DL vs Cls & 0.0956 & 0.4965 & 0.1961 & False \\
+In-network & Multiclass & Time split & DL vs Ens & -0.0545 & -0.2839 & 0.1961 & False \\
+In-network & Multiclass & Time split & Ens vs Cls & 0.1500 & 0.7918 & 0.1212 & False \\
+Cross-network & Binary & Random split & DL vs Cls & 0.0209 & 0.1019 & 0.8776 & False \\
+Cross-network & Binary & Random split & DL vs Ens & -0.0522 & -0.2628 & 0.6591 & False \\
+Cross-network & Binary & Random split & Ens vs Cls & 0.0731 & 0.3283 & 0.6591 & False \\
+Cross-network & Binary & Time split & DL vs Cls & 0.0549 & 0.2962 & 0.6440 & False \\
+Cross-network & Binary & Time split & DL vs Ens & -0.0679 & -0.3897 & 0.3893 & False \\
+Cross-network & Binary & Time split & Ens vs Cls & 0.1228 & 0.5896 & 0.2631 & False \\
+Cross-network & Multiclass & Random split & DL vs Cls & 0.0419 & 0.2483 & 0.3580 & False \\
+Cross-network & Multiclass & Random split & DL vs Ens & -0.0709 & -0.3756 & 0.3070 & False \\
+Cross-network & Multiclass & Random split & Ens vs Cls & 0.1128 & 0.6003 & 0.3070 & False \\
+Cross-network & Multiclass & Time split & DL vs Cls & 0.0726 & 0.4910 & 0.0557 & False \\
+Cross-network & Multiclass & Time split & DL vs Ens & -0.0969 & -0.6125 & 0.0302 & True \\
+Cross-network & Multiclass & Time split & Ens vs Cls & 0.1695 & 1.0913 & 0.0004 & True \\
 \bottomrule
 \end{tabular}
 \end{table}
