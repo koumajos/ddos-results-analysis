@@ -1,0 +1,10 @@
+Family,Stage,Accuracy,Precision,Recall,Macro-F1
+Deep Learning,SetA→SetA (Random split),0.9204,0.7584,0.6453,0.6541
+Deep Learning,SetA→SetA (Time split),0.9363,0.6291,0.4663,0.4807
+Deep Learning,SetA→SetC (Time split),0.9347,0.6007,0.4725,0.4654
+Classical,SetA→SetA (Random split),0.8949,0.6317,0.5208,0.5292
+Classical,SetA→SetA (Time split),0.9496,0.6049,0.4501,0.4602
+Classical,SetA→SetC (Time split),0.7899,0.5863,0.4332,0.3785
+Ensemble,SetA→SetA (Random split),0.9622,0.8722,0.816,0.8409
+Ensemble,SetA→SetA (Time split),0.9208,0.619,0.5311,0.5283
+Ensemble,SetA→SetC (Time split),0.9236,0.5346,0.5229,0.488

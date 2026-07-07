@@ -1,0 +1,25 @@
+Network,Task,Family,Accuracy,Precision,Recall,Macro-F1
+SetA,Binary,Deep Learning,0.9235,0.7166,0.6294,0.6197
+SetA,Binary,Classical,0.911,0.6545,0.5618,0.5581
+SetA,Binary,Ensemble,0.9424,0.7517,0.7197,0.7104
+SetA,Multiclass,Deep Learning,0.9332,0.671,0.4822,0.5151
+SetA,Multiclass,Classical,0.9336,0.5821,0.4091,0.4312
+SetA,Multiclass,Ensemble,0.9406,0.7395,0.6274,0.6588
+SetB,Binary,Deep Learning,0.9928,0.9718,0.9193,0.9427
+SetB,Binary,Classical,0.9859,0.9017,0.8965,0.8897
+SetB,Binary,Ensemble,0.9955,0.9845,0.9444,0.9634
+SetB,Multiclass,Deep Learning,0.9927,0.9561,0.8338,0.8782
+SetB,Multiclass,Classical,0.9849,0.844,0.7128,0.7462
+SetB,Multiclass,Ensemble,0.9955,0.9787,0.8937,0.9302
+SetC,Binary,Deep Learning,0.9893,0.958,0.8753,0.9076
+SetC,Binary,Classical,0.9815,0.8994,0.8506,0.8574
+SetC,Binary,Ensemble,0.9928,0.9747,0.9087,0.9387
+SetC,Multiclass,Deep Learning,0.99,0.9238,0.7064,0.75
+SetC,Multiclass,Classical,0.9843,0.8252,0.6505,0.6908
+SetC,Multiclass,Ensemble,0.9922,0.9008,0.7647,0.8007
+SetD,Binary,Deep Learning,0.9884,0.9753,0.9595,0.9666
+SetD,Binary,Classical,0.9692,0.9615,0.8634,0.9032
+SetD,Binary,Ensemble,0.9959,0.9869,0.9905,0.9887
+SetD,Multiclass,Deep Learning,0.9795,0.9244,0.872,0.8932
+SetD,Multiclass,Classical,0.9504,0.8469,0.6692,0.7111
+SetD,Multiclass,Ensemble,0.9923,0.9638,0.9568,0.96

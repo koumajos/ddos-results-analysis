@@ -1,0 +1,20 @@
+\begin{table}
+\caption{Overall case-study (disjoint-network) vs standard cross-network performance, stratified by split strategy and feature approach; one row per setting. Values are means over runs of Accuracy / Precision / Recall / Macro-F1; case study (disjoint-network) vs standard cross-network transfer. SetA$\leftrightarrow$SetC same-environment combinations are excluded.}
+\label{tab:q5_appendix_overall}
+\begin{tabular}{llrrrrr}
+\toprule
+Condition & Setting & N configs & Accuracy & Precision & Recall & Macro-F1 \\
+\midrule
+Overall & Standard & 531 & 0.7685 & 0.6380 & 0.6093 & 0.5545 \\
+Overall & Case Study & 531 & 0.8508 & 0.6652 & 0.6458 & 0.5993 \\
+Split: Random split & Standard & 281 & 0.7535 & 0.6310 & 0.6032 & 0.5523 \\
+Split: Random split & Case Study & 281 & 0.8524 & 0.6667 & 0.6454 & 0.6007 \\
+Split: Time split & Standard & 250 & 0.7854 & 0.6457 & 0.6162 & 0.5569 \\
+Split: Time split & Case Study & 250 & 0.8491 & 0.6634 & 0.6463 & 0.5977 \\
+Sequences: True & Standard & 325 & 0.8160 & 0.6581 & 0.6281 & 0.5597 \\
+Sequences: True & Case Study & 325 & 0.8777 & 0.6775 & 0.6366 & 0.6009 \\
+Sequences: False & Standard & 206 & 0.6937 & 0.6062 & 0.5798 & 0.5463 \\
+Sequences: False & Case Study & 206 & 0.8084 & 0.6457 & 0.6604 & 0.5968 \\
+\bottomrule
+\end{tabular}
+\end{table}

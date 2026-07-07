@@ -1,0 +1,13 @@
+model,Approach,Accuracy,Precision,Recall,Macro-F1
+lightgbm,Component-based,0.8655,0.8074,0.7456,0.7493
+lightgbm,Sequence-based,0.9782,0.8983,0.8596,0.8717
+xgboost,Component-based,0.8637,0.8084,0.7449,0.7478
+xgboost,Sequence-based,0.9818,0.9182,0.8495,0.8698
+random-forest,Component-based,0.8576,0.7883,0.747,0.7493
+random-forest,Sequence-based,0.9828,0.9137,0.8431,0.865
+knn,Component-based,0.8519,0.7781,0.7335,0.7378
+knn,Sequence-based,0.9662,0.8404,0.7529,0.7833
+logistic-regression,Component-based,0.8469,0.7413,0.6696,0.6697
+logistic-regression,Sequence-based,0.9678,0.8156,0.6971,0.7239
+svm,Component-based,0.8473,0.7663,0.7067,0.6927
+svm,Sequence-based,0.9538,0.7873,0.6553,0.6632

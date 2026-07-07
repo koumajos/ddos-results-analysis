@@ -1,0 +1,23 @@
+model,Split,Accuracy,Precision,Recall,Macro-F1
+gru,Random split,0.9802,0.9164,0.8657,0.8843
+gru,Time split,0.9717,0.8542,0.7748,0.7948
+rnn,Random split,0.9791,0.929,0.845,0.8751
+rnn,Time split,0.9713,0.8598,0.7696,0.7902
+lstm,Random split,0.9789,0.929,0.8422,0.8732
+lstm,Time split,0.9789,0.8661,0.7588,0.785
+lightgbm,Random split,0.9395,0.9045,0.8616,0.8757
+lightgbm,Time split,0.9042,0.8012,0.7435,0.7453
+xgboost,Random split,0.9385,0.9025,0.8593,0.873
+xgboost,Time split,0.9069,0.8241,0.7352,0.7446
+random-forest,Random split,0.9384,0.9011,0.8581,0.8743
+random-forest,Time split,0.902,0.8009,0.732,0.7401
+nn,Random split,0.9509,0.8299,0.7917,0.7808
+nn,Time split,0.9776,0.8932,0.7269,0.7637
+mlp,Random split,0.9713,0.915,0.7501,0.7864
+mlp,Time split,0.9769,0.8788,0.7228,0.7577
+knn,Random split,0.9246,0.851,0.7822,0.8088
+knn,Time split,0.8935,0.7675,0.7043,0.7124
+logistic-regression,Random split,0.9135,0.7968,0.7035,0.7238
+logistic-regression,Time split,0.9012,0.7601,0.6632,0.6697
+svm,Random split,0.9028,0.8017,0.7203,0.7143
+svm,Time split,0.8983,0.7519,0.6416,0.6416

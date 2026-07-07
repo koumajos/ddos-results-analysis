@@ -1,0 +1,25 @@
+Eval regime,Task,Split,Family,Accuracy,Precision,Recall,Macro-F1
+In-network,Binary,Random split,Deep Learning,0.9701,0.9138,0.8828,0.8852
+In-network,Binary,Random split,Classical,0.9522,0.8446,0.8241,0.8206
+In-network,Binary,Random split,Ensemble,0.9875,0.9627,0.933,0.947
+In-network,Binary,Time split,Deep Learning,0.9769,0.8971,0.8091,0.8331
+In-network,Binary,Time split,Classical,0.9716,0.8639,0.7621,0.7836
+In-network,Binary,Time split,Ensemble,0.9758,0.8863,0.8485,0.8536
+In-network,Multiclass,Random split,Deep Learning,0.974,0.8939,0.7551,0.7948
+In-network,Multiclass,Random split,Classical,0.9591,0.8016,0.624,0.6618
+In-network,Multiclass,Random split,Ensemble,0.9864,0.9412,0.8668,0.8969
+In-network,Multiclass,Time split,Deep Learning,0.9737,0.8437,0.6921,0.7235
+In-network,Multiclass,Time split,Classical,0.9675,0.7476,0.5968,0.6279
+In-network,Multiclass,Time split,Ensemble,0.974,0.8502,0.7544,0.7779
+Cross-network,Binary,Random split,Deep Learning,0.7859,0.6827,0.653,0.5885
+Cross-network,Binary,Random split,Classical,0.7659,0.6566,0.6467,0.5676
+Cross-network,Binary,Random split,Ensemble,0.8126,0.7331,0.6802,0.6407
+Cross-network,Binary,Time split,Deep Learning,0.8163,0.7244,0.6733,0.6022
+Cross-network,Binary,Time split,Classical,0.7707,0.6925,0.6471,0.5473
+Cross-network,Binary,Time split,Ensemble,0.8526,0.7822,0.739,0.6701
+Cross-network,Multiclass,Random split,Deep Learning,0.7799,0.5638,0.5291,0.4642
+Cross-network,Multiclass,Random split,Classical,0.7676,0.5278,0.4834,0.4223
+Cross-network,Multiclass,Random split,Ensemble,0.8103,0.6244,0.5846,0.5351
+Cross-network,Multiclass,Time split,Deep Learning,0.8146,0.5893,0.5367,0.4854
+Cross-network,Multiclass,Time split,Classical,0.8034,0.5352,0.4768,0.4128
+Cross-network,Multiclass,Time split,Ensemble,0.8673,0.6635,0.6351,0.5823

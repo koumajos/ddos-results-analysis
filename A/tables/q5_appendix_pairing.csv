@@ -1,0 +1,21 @@
+Train set,Val set,Setting,N runs,Accuracy,Precision,Recall,Macro-F1
+SetC,SetD,Standard,34,0.8349,0.7653,0.6825,0.6584
+SetC,SetD,Case Study,34,0.9896,0.9033,0.9045,0.8938
+SetB,SetC,Standard,39,0.7864,0.6485,0.571,0.5441
+SetB,SetC,Case Study,39,0.8831,0.8021,0.662,0.6716
+SetA,SetB,Standard,74,0.8527,0.675,0.5584,0.5644
+SetA,SetB,Case Study,74,0.8987,0.7728,0.6379,0.6603
+SetC,SetB,Standard,33,0.8349,0.7653,0.6825,0.6584
+SetC,SetB,Case Study,33,0.9281,0.8214,0.6106,0.6434
+SetB,SetA,Standard,39,0.7864,0.6485,0.571,0.5441
+SetB,SetA,Case Study,39,0.8712,0.7792,0.6232,0.6234
+SetD,SetA,Standard,34,0.6129,0.4722,0.5575,0.415
+SetD,SetA,Case Study,34,0.8532,0.6101,0.7399,0.605
+SetD,SetC,Standard,70,0.6129,0.4722,0.5575,0.415
+SetD,SetC,Case Study,70,0.8672,0.6054,0.7407,0.5988
+SetB,SetD,Standard,78,0.7864,0.6485,0.571,0.5441
+SetB,SetD,Case Study,78,0.7735,0.6094,0.5747,0.5595
+SetA,SetD,Standard,39,0.8527,0.675,0.5584,0.5644
+SetA,SetD,Case Study,39,0.8672,0.602,0.5289,0.5363
+SetD,SetB,Standard,134,0.6129,0.4722,0.5575,0.415
+SetD,SetB,Case Study,134,0.7655,0.5148,0.5861,0.4805

@@ -1,0 +1,10 @@
+Family,Target,Accuracy,Precision,Recall,Macro-F1
+Deep Learning,SetC (in-network),0.9891,0.9397,0.757,0.7996
+Deep Learning,SetC→SetB,0.9332,0.8198,0.7604,0.7447
+Deep Learning,SetC→SetD,0.7868,0.8025,0.6215,0.5977
+Classical,SetC (in-network),0.983,0.8566,0.7108,0.7439
+Classical,SetC→SetB,0.8824,0.6727,0.6884,0.6026
+Classical,SetC→SetD,0.8894,0.8258,0.5838,0.6052
+Ensemble,SetC (in-network),0.9903,0.9053,0.7986,0.827
+Ensemble,SetC→SetB,0.9943,0.9755,0.9004,0.9321
+Ensemble,SetC→SetD,0.9356,0.8632,0.668,0.6901

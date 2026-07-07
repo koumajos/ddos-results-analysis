@@ -1,0 +1,28 @@
+\begin{table}
+\caption{Per-model case-study vs standard cross-network performance, sorted by case-study Macro-F1; one row per setting. Models absent from the standard cross-network evaluation (e.g. catboost) have no Standard row. Values are means over runs of Accuracy / Precision / Recall / Macro-F1; case study (disjoint-network) vs standard cross-network transfer. SetA$\leftrightarrow$SetC same-environment combinations are excluded.}
+\label{tab:q5_appendix_per_model}
+\begin{tabular}{lllrrrr}
+\toprule
+model & category & Setting & Accuracy & Precision & Recall & Macro-F1 \\
+\midrule
+xgboost & Classical ML & Standard & 0.7929 & 0.6671 & 0.6235 & 0.5897 \\
+xgboost & Classical ML & Case Study & 0.8916 & 0.7125 & 0.6620 & 0.6474 \\
+logistic-regression & Classical ML & Standard & 0.7973 & 0.6393 & 0.5710 & 0.5582 \\
+logistic-regression & Classical ML & Case Study & 0.8882 & 0.6978 & 0.6391 & 0.6290 \\
+lightgbm & Classical ML & Standard & 0.7950 & 0.6650 & 0.6295 & 0.5939 \\
+lightgbm & Classical ML & Case Study & 0.8591 & 0.6765 & 0.6517 & 0.6115 \\
+random-forest & Classical ML & Standard & 0.7872 & 0.6664 & 0.6364 & 0.5940 \\
+random-forest & Classical ML & Case Study & 0.8019 & 0.6840 & 0.6553 & 0.5962 \\
+catboost & Classical ML & Case Study & 0.8021 & 0.6532 & 0.6235 & 0.5943 \\
+mlp & Classical ML & Case Study & 0.8743 & 0.6352 & 0.6315 & 0.5890 \\
+gru & Deep Learning & Standard & 0.8586 & 0.6789 & 0.6429 & 0.5979 \\
+gru & Deep Learning & Case Study & 0.8851 & 0.6605 & 0.6230 & 0.5860 \\
+rnn & Deep Learning & Standard & 0.8508 & 0.6735 & 0.6370 & 0.5853 \\
+rnn & Deep Learning & Case Study & 0.8527 & 0.6238 & 0.6180 & 0.5662 \\
+nn & Classical ML & Case Study & 0.8062 & 0.5637 & 0.6407 & 0.5315 \\
+svm & Classical ML & Case Study & 0.8230 & 0.5964 & 0.6125 & 0.5311 \\
+knn & Classical ML & Case Study & 0.7848 & 0.5407 & 0.6471 & 0.5133 \\
+lstm & Classical ML & Case Study & 0.7552 & 0.5454 & 0.6245 & 0.4972 \\
+\bottomrule
+\end{tabular}
+\end{table}
