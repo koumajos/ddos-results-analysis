@@ -1,14 +1,14 @@
 \begin{table}[htbp]
-\caption{Each network in its two cross-network roles. \textit{As source} is the mean macro F1-score of models trained on that network and evaluated on the other networks; \textit{As target} is the mean macro F1-score of models trained elsewhere and evaluated on that network. Values are averaged over all models, tasks, splits, input representations, and runs. Source $-$ Target $>$ 0 indicates that the network generalises outward better than it receives generalisation from the others. Rows are ordered by source rank. SetA$\leftrightarrow$SetC transfers are excluded (same network, different capture period).}
+\caption{Each network in its two cross-network roles. \textit{As source} is the mean macro F1-score of models trained on that network and evaluated on the other networks; \textit{As target} is the mean macro F1-score of models trained elsewhere and evaluated on that network. Values are averaged over all models, tasks, splits, input representations, and runs. Source $-$ Target $>$ 0 indicates that the network generalises outward better than it receives generalisation from the others. Rows are ordered by source rank. SetB$\leftrightarrow$SetC transfers are excluded (same network, different capture period).}
 \label{tab:q4_roles}
 \centering
 \begin{tabular}{lccccc}
 \toprule
 Network & \makecell{As source \\ macro F1-score} & \makecell{Source \\ rank} & \makecell{As target \\ macro F1-score} & \makecell{Target \\ rank} & Source $-$ Target \\
 \midrule
-SetC & \textbf{0.6584} & 1 & 0.5239 & 3 & +0.1345 \\
-SetA & 0.5644 & 2 & 0.4207 & 4 & +0.1438 \\
-SetB & 0.5441 & 3 & 0.5327 & 2 & +0.0115 \\
+SetC & \textbf{0.5411} & 1 & 0.4473 & 3 & +0.0938 \\
+SetA & 0.5317 & 2 & 0.4362 & 4 & +0.0955 \\
+SetB & 0.5065 & 3 & 0.4481 & 2 & +0.0584 \\
 SetD & 0.4150 & 4 & \textbf{0.6120} & 1 & -0.1970 \\
 \bottomrule
 \end{tabular}

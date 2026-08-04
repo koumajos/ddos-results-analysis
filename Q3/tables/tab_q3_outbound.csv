@@ -1,0 +1,5 @@
+Source,Binary In-network,Binary Outbound,Binary Rel. drop,Multiclass In-network,Multiclass Outbound,Multiclass Rel. drop
+SetA,0.6674,0.5985,10.3,0.5624,0.4649,17.3
+SetB,0.8269,0.6043,26.9,0.7857,0.4087,48.0
+SetC,0.8294,0.6334,23.6,0.6763,0.4489,33.6
+SetD,0.9643,0.4861,49.6,0.8848,0.344,61.1

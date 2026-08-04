@@ -1,0 +1,19 @@
+\begin{table*}
+                \centering
+                \caption{Outbound transferability of each network as a training source. \textit{In-network} is the mean macro F1-score across models trained and tested on the same network. \textit{Outbound} is the mean macro F1-score across models trained on that network and tested on the other three, excluding the SetB--SetC direction as those two networks originate from the same environment. \textit{Rel.\ drop} is the relative decline from in-network to outbound. Values are averaged over all models, feature approaches, splits, and runs. Rows are ordered by network label.}
+                \label{tab:q3_outbound}
+                \rowcolors{3}{gray!10}{white}
+                
+                \begin{tabular}{ l c c c c c c }
+                \toprule
+                & \multicolumn{3}{c}{\textbf{Binary}} & \multicolumn{3}{c}{\textbf{Multiclass}} \\
+                \cmidrule(lr){2-4} \cmidrule(lr){5-7}
+                \textbf{Source} & {\textbf{In-network}} & {\textbf{Outbound}} & {\makecell{\textbf{Rel. drop (\%)}}} & {\textbf{In-network}} & {\textbf{Outbound}} & {\makecell{\textbf{Rel. drop (\%)}}} \\
+                \midrule
+                SetA & 0.667 & 0.599 & 10.3 & 0.562 & \bfseries 0.465 & 17.3 \\
+                SetB & 0.827 & 0.604 & 26.9 & 0.786 & 0.409 & 48.0 \\
+                SetC & 0.829 & \bfseries 0.633 & 23.6 & 0.676 & 0.449 & 33.6 \\
+                SetD & \bfseries 0.964 & 0.486 & 49.6 & \bfseries 0.885 & 0.344 & 61.1 \\
+                \bottomrule
+                \end{tabular}
+            \end{table*}

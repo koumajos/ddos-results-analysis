@@ -1,0 +1,24 @@
+\begin{table}
+\caption{Disjoint-validation performance per (training network, validation network, test network) combination, restricted to each side's single best-performing model (max mean macro F1 over tasks, splits, and input representations) rather than the all-model mean reported in Table~\ref{tab:q5_pairings}. Disjoint and Standard report that best model's mean macro F1; the best model need not be the same on both sides. $\Delta$F1 $=$ Disjoint $-$ Standard. Rows are sorted by $\Delta$F1. SetB$\leftrightarrow$SetC combinations are excluded (same network, different capture period).}
+\label{tab:q5_pairings_best_models_only}
+\centering
+\small
+\begin{tabular}{llllclcr}
+\toprule
+Train & Validation & Test & Best Disjoint model & Disjoint & Best Standard model & Standard & $\Delta$F1 \\
+\midrule
+SetD & SetA & SetB & LR & 0.9288 & LR & 0.8436 & +0.0852 \\
+SetA & SetD & SetC & LR & 0.8050 & LR & 0.7828 & +0.0223 \\
+SetA & SetD & SetB & LR & 0.8972 & LR & 0.8824 & +0.0148 \\
+SetA & SetC & SetD & XGBoost & 0.9174 & XGBoost & 0.9375 & -0.0201 \\
+SetA & SetB & SetD & XGBoost & 0.9096 & XGBoost & 0.9375 & -0.0278 \\
+SetB & SetA & SetD & LightGBM & 0.9021 & XGBoost & 0.9581 & -0.0560 \\
+SetD & SetA & SetC & LR & 0.8234 & LR & 0.8829 & -0.0595 \\
+SetD & SetB & SetA & LightGBM & 0.6221 & LR & 0.6856 & -0.0635 \\
+SetC & SetA & SetD & RandomForest & 0.8233 & XGBoost & 0.9588 & -0.1356 \\
+SetD & SetC & SetA & XGBoost & 0.5244 & LR & 0.6856 & -0.1612 \\
+SetB & SetD & SetA & LR & 0.5665 & LightGBM & 0.7340 & -0.1675 \\
+SetC & SetD & SetA & LightGBM & 0.4477 & RandomForest & 0.7320 & -0.2844 \\
+\bottomrule
+\end{tabular}
+\end{table}

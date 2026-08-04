@@ -1,5 +1,5 @@
 \begin{table}
-\caption{Disjoint-validation performance per (training network, validation network, test network) combination. Disjoint and Standard are mean macro F1-scores pooled over all models, tasks, splits, input representations, and runs, with the standard cross-network baseline restricted to the same training source and the same test network as the corresponding disjoint runs. $\Delta$F1 $=$ Disjoint $-$ Standard. $p$-values are two-sided Mann--Whitney U tests over the run-averaged configuration scores and Cohen's $d$ is computed on the pooled distributions. Rows are sorted by $\Delta$F1. SetA$\leftrightarrow$SetC combinations are excluded (same network, different capture period).}
+\caption{Disjoint-validation performance per (training network, validation network, test network) combination. Disjoint and Standard are mean macro F1-scores pooled over all models, tasks, splits, input representations, and runs, with the standard cross-network baseline restricted to the same training source and the same test network as the corresponding disjoint runs. $\Delta$F1 $=$ Disjoint $-$ Standard. $p$-values are two-sided Mann--Whitney U tests over the run-averaged configuration scores and Cohen's $d$ is computed on the pooled distributions. Rows are sorted by $\Delta$F1. SetB$\leftrightarrow$SetC combinations are excluded (same network, different capture period).}
 \label{tab:q5_pairings}
 \centering
 \small
@@ -7,18 +7,18 @@
 \toprule
 Train & Validation & Test & Disjoint & Standard & $\Delta$F1 & $p$-value & Cohen's $d$ \\
 \midrule
-SetC & SetD & SetB & 0.8938 & 0.7017 & +0.1921 & $<$0.0001 & 0.952 \\
 SetD & SetA & SetB & 0.6050 & 0.4138 & +0.1912 & $<$0.0001 & 1.060 \\
-SetD & SetC & SetB & 0.5988 & 0.4138 & +0.1850 & $<$0.0001 & 1.004 \\
-SetD & SetB & SetC & 0.5578 & 0.4284 & +0.1295 & $<$0.0001 & 0.827 \\
-SetB & SetC & SetD & 0.6716 & 0.5747 & +0.0969 & 0.0284 & 0.499 \\
-SetB & SetD & SetC & 0.7160 & 0.6194 & +0.0967 & 0.0299 & 0.484 \\
-SetA & SetD & SetB & 0.5363 & 0.4825 & +0.0538 & 0.0159 & 0.479 \\
-SetB & SetA & SetD & 0.6234 & 0.5747 & +0.0486 & 0.3530 & 0.249 \\
-SetC & SetB & SetD & 0.6434 & 0.6150 & +0.0284 & 0.4624 & 0.168 \\
-SetA & SetB & SetD & 0.6603 & 0.6464 & +0.0139 & 0.7056 & 0.093 \\
+SetD & SetA & SetC & 0.5594 & 0.4284 & +0.1310 & 0.0004 & 0.813 \\
+SetA & SetD & SetC & 0.5578 & 0.4662 & +0.0916 & 0.0008 & 0.736 \\
+SetA & SetD & SetB & 0.5501 & 0.4825 & +0.0676 & 0.0043 & 0.601 \\
+SetA & SetC & SetD & 0.7124 & 0.6464 & +0.0660 & 0.0612 & 0.414 \\
+SetB & SetA & SetD & 0.6183 & 0.5747 & +0.0436 & 0.4112 & 0.221 \\
+SetA & SetB & SetD & 0.6517 & 0.6464 & +0.0054 & 0.9809 & 0.036 \\
 SetD & SetB & SetA & 0.4033 & 0.4030 & +0.0003 & 0.9141 & 0.003 \\
-SetB & SetD & SetA & 0.4029 & 0.4384 & -0.0355 & 0.3049 & -0.294 \\
+SetD & SetC & SetA & 0.3995 & 0.4030 & -0.0035 & 0.7510 & -0.038 \\
+SetC & SetA & SetD & 0.5883 & 0.6150 & -0.0267 & 0.4237 & -0.155 \\
+SetB & SetD & SetA & 0.4047 & 0.4384 & -0.0336 & 0.4153 & -0.278 \\
+SetC & SetD & SetA & 0.3543 & 0.4672 & -0.1130 & $<$0.0001 & -0.847 \\
 \bottomrule
 \end{tabular}
 \end{table}

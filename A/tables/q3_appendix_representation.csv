@@ -1,5 +1,5 @@
 Representation,Regime,Accuracy,Precision,Recall,Macro-F1
 Component-based,In-network,0.8555,0.7816,0.7245,0.7244
-Component-based,Cross-network,0.6734,0.5834,0.5524,0.5151
+Component-based,Cross-network,0.6657,0.5635,0.5414,0.5022
 Sequence-based,In-network,0.9726,0.8736,0.7801,0.8021
-Sequence-based,Cross-network,0.8031,0.6465,0.6054,0.5417
+Sequence-based,Cross-network,0.7921,0.5928,0.5518,0.4889

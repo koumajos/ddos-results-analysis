@@ -1,14 +1,14 @@
 \begin{table}
-\caption{Mean F1-score transfer matrix (rows = train set, columns = test set), averaged over all models, tasks, splits, and approaches. Diagonal entries are in-network; off-diagonal are cross-network. The SetA$\leftrightarrow$SetC transfers are excluded (same network, different capture period) and shown as \texttt{---}. Transfer Drop = In-network $-$ Mean Cross.}
+\caption{Mean F1-score transfer matrix (rows = train set, columns = test set), averaged over all models, tasks, splits, and approaches. Diagonal entries are in-network; off-diagonal are cross-network. The SetB$\leftrightarrow$SetC transfers are excluded (same network, different capture period) and shown as \texttt{---}. Transfer Drop = In-network $-$ Mean Cross.}
 \label{tab:q3_matrix}
 \begin{tabular}{lrrrrrrr}
 \toprule
 test_set & SetA & SetB & SetC & SetD & In-network & Mean Cross & Transfer Drop \\
 train_set &  &  &  &  &  &  &  \\
 \midrule
-SetA & 0.6149 & 0.4825 & --- & 0.6464 & 0.6149 & 0.5644 & 0.0504 \\
-SetB & 0.4384 & 0.8063 & 0.6194 & 0.5747 & 0.8063 & 0.5442 & 0.2621 \\
-SetC & --- & 0.7017 & 0.7528 & 0.6150 & 0.7528 & 0.6584 & 0.0945 \\
+SetA & 0.6149 & 0.4825 & 0.4662 & 0.6464 & 0.6149 & 0.5317 & 0.0832 \\
+SetB & 0.4384 & 0.8063 & --- & 0.5747 & 0.8063 & 0.5066 & 0.2997 \\
+SetC & 0.4672 & --- & 0.7528 & 0.6150 & 0.7528 & 0.5411 & 0.2117 \\
 SetD & 0.4030 & 0.4138 & 0.4284 & 0.9246 & 0.9246 & 0.4151 & 0.5095 \\
 \bottomrule
 \end{tabular}

@@ -1,9 +1,0 @@
-Eval type,Task,Split,Deep Learning,Classical,Ensemble,DL-Cls,DL-Ens,Ens-Cls
-In-network,Binary,Random split,0.8852,0.8206,0.947,0.0646,-0.0618,0.1264
-In-network,Binary,Time split,0.8331,0.7836,0.8536,0.0495,-0.0205,0.07
-In-network,Multiclass,Random split,0.7948,0.6618,0.8969,0.133,-0.1021,0.2351
-In-network,Multiclass,Time split,0.7235,0.6279,0.7779,0.0956,-0.0544,0.15
-Cross-network,Binary,Random split,0.5885,0.5676,0.6407,0.0209,-0.0522,0.0731
-Cross-network,Binary,Time split,0.6022,0.5473,0.6701,0.0549,-0.0679,0.1228
-Cross-network,Multiclass,Random split,0.4642,0.4223,0.5351,0.0419,-0.0709,0.1128
-Cross-network,Multiclass,Time split,0.4854,0.4128,0.5823,0.0726,-0.0969,0.1695

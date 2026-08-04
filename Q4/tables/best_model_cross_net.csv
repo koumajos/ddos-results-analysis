@@ -1,12 +1,12 @@
 Rank,model,category,Mean Cross-net F1,Mean |Asymmetry|
-1,gru,Deep Learning,0.5979,0.1403
-2,random-forest,Classical ML,0.594,0.1882
-3,lightgbm,Classical ML,0.5939,0.2089
-4,xgboost,Classical ML,0.5897,0.2131
-5,rnn,Deep Learning,0.5853,0.1555
-6,mlp,Deep Learning,0.5592,0.155
-7,logistic-regression,Classical ML,0.5582,0.0895
-8,lstm,Deep Learning,0.4992,0.2003
-9,knn,Classical ML,0.4577,0.1244
-10,nn,Deep Learning,0.4337,0.1
-11,svm,Classical ML,0.3936,0.0495
+1,lightgbm,Classical ML,0.545,0.1975
+2,random-forest,Classical ML,0.5422,0.1803
+3,xgboost,Classical ML,0.5338,0.21
+4,logistic-regression,Classical ML,0.5296,0.0944
+5,gru,Deep Learning,0.5258,0.13
+6,rnn,Deep Learning,0.5155,0.1332
+7,mlp,Deep Learning,0.4923,0.1406
+8,lstm,Deep Learning,0.46,0.187
+9,knn,Classical ML,0.4358,0.1
+10,nn,Deep Learning,0.43,0.1083
+11,svm,Classical ML,0.397,0.0494

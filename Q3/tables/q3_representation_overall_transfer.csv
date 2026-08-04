@@ -1,3 +1,3 @@
 Representation,In-network F1,Cross-network F1,Transfer drop,Relative drop (%)
-Component-based,0.7244,0.5151,0.2094,28.9041
-Sequence-based,0.8021,0.5417,0.2603,32.4561
+Component-based,0.7244,0.5022,0.2223,30.6848
+Sequence-based,0.8021,0.4889,0.3132,39.0485

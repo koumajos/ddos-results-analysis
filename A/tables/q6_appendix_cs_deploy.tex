@@ -1,18 +1,18 @@
 \begin{table}
-\caption{Q6 appendix, Case Study B: means over runs of Accuracy, Precision, Recall, and Macro-F1 by model family (sequence-based, time split) for deployment from the strongest source SetC to SetC (in-network), SetB, and SetD. SetA is excluded as a target (same physical network as SetC).}
+\caption{Q6 appendix, Case Study B: means over runs of Accuracy, Precision, Recall, and Macro-F1 by model family (sequence-based, time split) for deployment from the strongest source SetC to SetC (in-network), SetA, and SetD. SetB is excluded as a target (same physical network as SetC).}
 \label{tab:q6_appendix_cs_deploy}
 \begin{tabular}{llrrrr}
 \toprule
 Family & Target & Accuracy & Precision & Recall & Macro-F1 \\
 \midrule
 Deep Learning & SetC (in-network) & 0.9891 & 0.9397 & 0.7570 & 0.7996 \\
-Deep Learning & SetC→SetB & 0.9332 & 0.8198 & 0.7604 & 0.7447 \\
+Deep Learning & SetC→SetA & 0.8649 & 0.5757 & 0.5194 & 0.5028 \\
 Deep Learning & SetC→SetD & 0.7868 & 0.8025 & 0.6215 & 0.5977 \\
 Classical & SetC (in-network) & 0.9830 & 0.8566 & 0.7108 & 0.7439 \\
-Classical & SetC→SetB & 0.8824 & 0.6727 & 0.6884 & 0.6026 \\
+Classical & SetC→SetA & 0.8649 & 0.5007 & 0.4647 & 0.4502 \\
 Classical & SetC→SetD & 0.8894 & 0.8258 & 0.5838 & 0.6052 \\
 Ensemble & SetC (in-network) & 0.9903 & 0.9053 & 0.7986 & 0.8270 \\
-Ensemble & SetC→SetB & 0.9943 & 0.9755 & 0.9004 & 0.9321 \\
+Ensemble & SetC→SetA & 0.9628 & 0.6884 & 0.6113 & 0.6340 \\
 Ensemble & SetC→SetD & 0.9356 & 0.8632 & 0.6680 & 0.6901 \\
 \bottomrule
 \end{tabular}

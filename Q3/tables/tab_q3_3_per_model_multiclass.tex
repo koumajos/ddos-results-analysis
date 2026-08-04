@@ -1,6 +1,6 @@
 \begin{table*}
     \centering
-    \caption{Per-model transferability (Multiclass task). The \emph{mean} columns are aggregated across both input representations and all training/test networks, splits, and runs. The \emph{Best} columns report the model at its best input representation (highest mean in-network macro F1): that representation's in-network and cross-network means. Transfer drop = in-network mean $-$ cross-network mean. Rows sorted by cross-network mean F1 descending. SetA$\leftrightarrow$SetC transfers are excluded (same network, different capture period).}
+    \caption{Per-model transferability (Multiclass task). The \emph{mean} columns are aggregated across both input representations and all training/test networks, splits, and runs. The \emph{Best} columns report the model at its best input representation (highest mean in-network macro F1): that representation's in-network and cross-network means. Transfer drop = in-network mean $-$ cross-network mean. Rows sorted by cross-network mean F1 descending. SetB$\leftrightarrow$SetC transfers are excluded (same network, different capture period).}
     \label{tab:q3_per_model_multiclass}
 
     \rowcolors{3}{gray!10}{white}
@@ -17,17 +17,17 @@
     \toprule
     \textbf{Model} & {\makecell{\textbf{In-net mean} \\ \textbf{macro F1-score}}} & {\makecell{\textbf{Cross-net mean} \\ \textbf{macro F1-score}}} & {\makecell{\textbf{Transfer drop} \\ \textbf{(In $-$ Cross)}}} & {\makecell{\textbf{Rel.} \\ \textbf{drop (\%)}}} & {\makecell{\textbf{Best in-net} \\ \textbf{macro F1-score}}} & {\makecell{\textbf{Best cross-net} \\ \textbf{macro F1-score}}} \\
     \midrule
-    RandomForest & 0.7795 & \textbf{0.5312} & 0.2484 & 31.9 & 0.8348 & \textbf{0.5685} \\
-    GRU & \textbf{0.7965} & 0.5262 & 0.2703 & 33.9 & 0.7965 & 0.5262 \\
-    LightGBM & 0.7828 & 0.5249 & 0.2579 & 32.9 & \textbf{0.8405} & 0.5596 \\
-    XGBoost & 0.7784 & 0.5224 & 0.2560 & 32.9 & 0.8369 & 0.5480 \\
-    RNN & 0.7867 & 0.5078 & 0.2789 & 35.4 & 0.7867 & 0.5078 \\
-    MLP & 0.7128 & 0.4999 & 0.2129 & \textbf{29.9} & 0.7128 & 0.4999 \\
-    LSTM & 0.7868 & 0.4404 & 0.3464 & 44.0 & 0.7868 & 0.4404 \\
-    LR & 0.6178 & 0.4072 & \textbf{0.2106} & 34.1 & 0.6272 & 0.5008 \\
-    NN & 0.7128 & 0.3997 & 0.3131 & 43.9 & 0.7128 & 0.3997 \\
-    kNN & 0.7219 & 0.3987 & 0.3232 & 44.8 & 0.7376 & 0.4298 \\
-    SVM & 0.6041 & 0.3219 & 0.2822 & 46.7 & 0.6385 & 0.3217 \\
+    RandomForest & 0.7795 & \textbf{0.4743} & 0.3052 & 39.2 & 0.8348 & \textbf{0.4854} \\
+    LightGBM & 0.7828 & 0.4688 & 0.3139 & 40.1 & \textbf{0.8405} & 0.4768 \\
+    XGBoost & 0.7784 & 0.4576 & 0.3208 & 41.2 & 0.8369 & 0.4506 \\
+    GRU & \textbf{0.7965} & 0.4512 & 0.3453 & 43.4 & 0.7965 & 0.4512 \\
+    RNN & 0.7867 & 0.4392 & 0.3475 & 44.2 & 0.7867 & 0.4392 \\
+    MLP & 0.7128 & 0.4369 & 0.2759 & \textbf{38.7} & 0.7128 & 0.4369 \\
+    LSTM & 0.7868 & 0.3952 & 0.3915 & 49.8 & 0.7868 & 0.3952 \\
+    NN & 0.7128 & 0.3911 & 0.3217 & 45.1 & 0.7128 & 0.3911 \\
+    LR & 0.6178 & 0.3747 & \textbf{0.2431} & 39.3 & 0.6272 & 0.4353 \\
+    kNN & 0.7219 & 0.3671 & 0.3548 & 49.1 & 0.7376 & 0.3936 \\
+    SVM & 0.6041 & 0.3212 & 0.2829 & 46.8 & 0.6385 & 0.3117 \\
     \bottomrule
     \end{tabular}
 \end{table*}

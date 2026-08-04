@@ -1,4 +1,4 @@
 task,Cross-network,In-network,Transfer Drop (In − Cross),Relative Drop (%)
-Binary,0.6066,0.822,0.2154,26.2
-Multiclass,0.458,0.7273,0.2693,37.03
-All,0.5323,0.7747,0.2423,31.28
+Binary,0.5729,0.822,0.2491,30.3
+Multiclass,0.4142,0.7273,0.3131,43.05
+All,0.4936,0.7747,0.2811,36.29

@@ -1,5 +1,5 @@
 \begin{table}[htbp]
-\caption{Directional asymmetry of cross-network transfer per network pair. For each unordered pair $\{i, j\}$ and task, F1($i \to j$) and F1($j \to i$) are mean macro F1-scores over configurations matched on model, split, and input representation, averaged over runs. Asymmetry $A_{ij} = $ F1($i \to j$) $-$ F1($j \to i$); $i$ is the first network in the pair label. $p$-values are two-sided Wilcoxon signed-rank tests over the matched configurations ($H_0$: F1($i \to j$) $=$ F1($j \to i$)); Cohen's $d$ is computed on the paired differences. Rows are sorted by mean absolute asymmetry. SetA$\leftrightarrow$SetC transfers are excluded (same network, different capture period).}
+\caption{Directional asymmetry of cross-network transfer per network pair. For each unordered pair $\{i, j\}$ and task, F1($i \to j$) and F1($j \to i$) are mean macro F1-scores over configurations matched on model, split, and input representation, averaged over runs. Asymmetry $A_{ij} = $ F1($i \to j$) $-$ F1($j \to i$); $i$ is the first network in the pair label. $p$-values are two-sided Wilcoxon signed-rank tests over the matched configurations ($H_0$: F1($i \to j$) $=$ F1($j \to i$)); Cohen's $d$ is computed on the paired differences. Rows are sorted by mean absolute asymmetry. SetB$\leftrightarrow$SetC transfers are excluded (same network, different capture period).}
 \label{tab:q4_pairs}
 \centering
 \begin{tabular}{llcccccc}
@@ -15,11 +15,11 @@ SetC$\leftrightarrow$SetD & \textit{Multiclass} & 0.5178 & 0.3464 & +0.1714 & Se
 SetB$\leftrightarrow$SetD & \textit{Binary} & 0.6849 & 0.4904 & +0.1945 & SetB & $<$0.0001 & 0.837 \\
 SetB$\leftrightarrow$SetD & \textit{Multiclass} & 0.4646 & 0.3371 & +0.1274 & SetB & 0.0001 & 0.763 \\
 \addlinespace
-SetB$\leftrightarrow$SetC & \textit{Binary} & 0.7015 & 0.7313 & -0.0298 & SetC & 0.1126 & -0.182 \\
-SetB$\leftrightarrow$SetC & \textit{Multiclass} & 0.5372 & 0.6721 & -0.1349 & SetC & $<$0.0001 & -1.345 \\
-\addlinespace
 SetA$\leftrightarrow$SetB & \textit{Binary} & 0.5462 & 0.5238 & +0.0224 & SetA & 0.5097 & 0.154 \\
 SetA$\leftrightarrow$SetB & \textit{Multiclass} & 0.4188 & 0.3529 & +0.0659 & SetA & 0.0041 & 0.556 \\
+\addlinespace
+SetA$\leftrightarrow$SetC & \textit{Binary} & 0.5413 & 0.5545 & -0.0132 & SetC & 0.5429 & -0.086 \\
+SetA$\leftrightarrow$SetC & \textit{Multiclass} & 0.3911 & 0.3799 & +0.0112 & SetA & 0.7613 & 0.095 \\
 \bottomrule
 \end{tabular}
 \end{table}

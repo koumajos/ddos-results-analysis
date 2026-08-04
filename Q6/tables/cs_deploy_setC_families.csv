@@ -1,4 +1,0 @@
-Family,SetC in-net,SetC->SetB,SetC->SetD,Mean deploy,Deploy drop
-Deep Learning,0.7996,0.7447,0.5977,0.6712,0.1284
-Classical,0.7439,0.6026,0.6052,0.6039,0.14
-Ensemble,0.827,0.9321,0.6901,0.8111,0.0158

@@ -1,0 +1,16 @@
+\begin{table}
+\caption{Temporal degradation across a contiguous, zero-gap network split. SetB (capture 2023-04-27T12:38:37 to 2023-08-25T18:05:56) is used for training; SetC (2023-08-25T18:05:56 to 2023-11-19T22:50:19) begins at the exact instant SetB ends and is the same physical network evaluated immediately afterward. Temporal drop = SetB in-network F1 $-$ SetB$\to$SetC F1.}
+\label{tab:q2_temporal_setB_setC}
+\begin{tabular}{llrrrr}
+\toprule
+Split & Task & SetB in-net F1 & SetB$\to$SetC F1 & Temporal drop & Relative drop (%) \\
+\midrule
+Random split & Binary & 0.8518 & 0.7487 & 0.1031 & 12.1062 \\
+Random split & Multiclass & 0.8099 & 0.5715 & 0.2384 & 29.4388 \\
+Random split & All & 0.8308 & 0.6601 & 0.1708 & 20.5542 \\
+Time split & Binary & 0.8021 & 0.6544 & 0.1477 & 18.4143 \\
+Time split & Multiclass & 0.7615 & 0.5030 & 0.2586 & 33.9542 \\
+Time split & All & 0.7818 & 0.5787 & 0.2031 & 25.9828 \\
+\bottomrule
+\end{tabular}
+\end{table}

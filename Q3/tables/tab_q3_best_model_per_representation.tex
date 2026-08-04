@@ -1,14 +1,14 @@
 \begin{table}
-\caption{Best model per input representation and task. For each (representation, task) the model with the highest mean in-network macro F1 (aggregated across all networks, splits, and runs) is selected; its in-network and cross-network macro F1 (both aggregated across all sets) and transfer drop (in-network $-$ cross-network) are reported. SetA$\leftrightarrow$SetC transfers are excluded (same network, different capture period).}
+\caption{Best model per input representation and task. For each (representation, task) the model with the highest mean in-network macro F1 (aggregated across all networks, splits, and runs) is selected; its in-network and cross-network macro F1 (both aggregated across all sets) and transfer drop (in-network $-$ cross-network) are reported. SetB$\leftrightarrow$SetC transfers are excluded (same network, different capture period).}
 \label{tab:q3_best_repr}
 \begin{tabular}{lllccc}
 \toprule
 Representation & Task & Model & In-net F1 & Cross-net F1 & Transfer drop \\
 \midrule
-Component-based & Binary & XGBoost & 0.7757 & 0.6633 & 0.1125 \\
-Component-based & Multiclass & LightGBM & 0.7250 & 0.4901 & 0.2349 \\
-Sequence-based & Binary & LightGBM & 0.9030 & 0.6666 & 0.2363 \\
-Sequence-based & Multiclass & LightGBM & 0.8405 & 0.5596 & 0.2808 \\
+Component-based & Binary & XGBoost & 0.7757 & 0.6485 & 0.1272 \\
+Component-based & Multiclass & LightGBM & 0.7250 & 0.4609 & 0.2642 \\
+Sequence-based & Binary & LightGBM & 0.9030 & 0.5925 & 0.3105 \\
+Sequence-based & Multiclass & LightGBM & 0.8405 & 0.4768 & 0.3637 \\
 \bottomrule
 \end{tabular}
 \end{table}
